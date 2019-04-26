@@ -9,10 +9,10 @@
             "email": "lafrouji.anas@growithis.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
 		"php": ">=5.3.0",
-	    	"growithis/viabi": "1.0.0"
+	    	"growithis/viabi": "dev-master"
 	},
     "autoload": {
         "psr-0": {
