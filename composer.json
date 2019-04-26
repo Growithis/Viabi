@@ -2,7 +2,11 @@
     "name": "growithis/viabi",
     "description": "Virtual intelligent assistant for business interaction, PHP packages",
     "type": "library",
+<<<<<<< HEAD
     "license": "proprietary",
+=======
+    "license": "Growithis, Inc. API licence",
+>>>>>>> 15af943365f818d2f4e761d4efe3928568992788
     "authors": [
         {
             "name": "Growithis Inc.",
