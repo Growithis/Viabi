@@ -3,7 +3,10 @@
     "description": "Virtual intelligent assistant for business interaction, PHP packages",
     "type": "library",
     "license": "proprietary",
+<<<<<<< HEAD
     "license": "Growithis, Inc. API licence",
+=======
+>>>>>>> 0adb1d6d0849399c62dcb4db522872ee23ea20c4
     "authors": [
         {
             "name": "Growithis Inc.",
