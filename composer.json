@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
 		"php": ">=5.3.0",
-	    	"viabi/viabi": "1.0.0"
+	    	"viabi/viabi": "dev-master"
 	},
     "autoload": {
         "psr-0": {
