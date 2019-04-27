@@ -29,12 +29,11 @@ namespace VIABI;
           {
             $token = $matches[1];
 
-            //echo 'ok';
 
             if($token == $key)
             {
-                //echo 'yes';
-                
+
+              
                   $this->listen();
 
             }
@@ -62,7 +61,10 @@ namespace VIABI;
         function listen()
         {
             $update_response = file_get_contents("php://input");
-            $this->datatab = json_decode($update_response, true);
+          
+            $response = json_decode($update_response,1);
+            
+            $this->datatab = json_decode($response['response'], true);
             
             $this->action = $this->datatab['queryResult']['action'];
             $this->query = $this->datatab['queryResult']['queryText'];
